@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  background-color: #0a0a0b;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  gap: 3em;
+  padding-top: 5em;
+}
+
+.projectTitle {
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5em;
+}
+
+.language{
+  padding: 2px 8px;
+  margin: 0 4px;
+  background-color: #16181a;
+  border-radius: 5px;
+}
+
+.extras{
+  padding: 2px 8px;
+  margin: 0 4px;
+  background-color: #1b234e;
+  color: rgb(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-size: 70%;
+}
+
+.secProj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  scroll-margin-top: 100px;
+}
+
+.listProjects {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex: auto;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.liProject {
+  border: 1px solid rgb(96, 96, 96);
+  height: 15em;
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  padding: 1em 1em 0 1.5em;
+  border-radius: 2em;
+  width: 23em;
+}
+
+.divDesProj {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.titleProjects {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textProjects {
+  margin: 0;
+  padding: 0;
+}
+
+.descriptionContainer{
+  color: rgb(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.paragraphLanguages{
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .liProject{
+    width: auto;
+  }
+}
