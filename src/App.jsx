@@ -3,6 +3,7 @@ import { Header } from "./page/header";
 import { Banner } from "./page/banner";
 import { Project } from "./page/project";
 import { Footer } from "./page/footer";
+import React from "react";
 
 function App() {
   return (
