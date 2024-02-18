@@ -6,10 +6,8 @@ import styleBanner from "../style/banner.module.css";
 import styleProjects from "../style/projects.module.css";
 import { technologies } from "../data/technologies.js";
 import { About } from "./about.jsx";
-import { useState } from 'react';
 
 export const Banner = () => {
-  const [hoveredTech, setHoveredTech] = useState(null);
   return (
     <section
       id="banner"
@@ -23,9 +21,7 @@ export const Banner = () => {
               Olá, me chamo Thiago Arques
             </p>
             <h2 className={styleProjects.title}>Bem vindo ao meu portfólio</h2>
-            <p className={styleBanner.bannerDescription}>
-              <About />
-            </p>
+            <About />
             <div className={styleBanner.buttonsBanner}>
               <a href="#projects" className={styleButtons.buttonProjBanner}>
                 Projetos
@@ -42,11 +38,11 @@ export const Banner = () => {
               <ul className={styleBanner.listTech}>
                 {technologies.map((technologie, index) => (
                   <img
-                  key={index}
-                  src={technologie.img}
-                  alt="Tecnologia"
-                  className={styleBanner.techImage}
-                />
+                    key={index}
+                    src={technologie.img}
+                    alt="Tecnologia"
+                    className={styleBanner.techImage}
+                  />
                 ))}
               </ul>
             </section>
