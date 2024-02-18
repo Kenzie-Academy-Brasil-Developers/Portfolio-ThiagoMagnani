@@ -1,8 +1,8 @@
 import style from "./style/projects.module.css";
-import { Header } from "./pagina/header";
-import { Banner } from "./pagina/banner";
-import { Project } from "./pagina/project";
-import { Footer } from "./pagina/footer";
+import { Header } from "./page/header";
+import { Banner } from "./page/banner";
+import { Project } from "./page/project";
+import { Footer } from "./page/footer";
 
 function App() {
   return (
