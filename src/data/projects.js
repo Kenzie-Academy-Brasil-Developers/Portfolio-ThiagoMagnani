@@ -7,9 +7,9 @@ export const projects = [
     githubLink:
       "https://github.com/Kenzie-Academy-Brasil-Developers/Project-Fullstack-ThiagoMagnani",
     appLink:
-      "https://github.com/Kenzie-Academy-Brasil-Developers/Project-Fullstack-ThiagoMagnani",
+      "https://project-fullstack-lyart.vercel.app/",
     languages: ["JavaScript", "HTML", "CSS", "TypeScript"],
-    extras: ["React", "Next", "Prisma", "Vite"],
+    extras: ["React", "NestJS", "Prisma", "Vite"],
   },
   {
     id: 2,
